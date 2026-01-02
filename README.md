@@ -1,36 +1,43 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Complete Features:
 
-## Getting Started
+3-Step Login System - Role-based with user dropdown
+Citizen Dashboard - View issues, budgets, flag suspicious budgets
+Chairman Dashboard - Create budgets, view escalations, manage records
+Admin Dashboard - Approve/reject issues, view statistics
+Budget System - Blockchain-style hash chains for tamper detection
+Flag & Escalation - Auto-escalate when >50% citizens flag a budget
+Full Bengali UI - Professional, clean design throughout
 
-First, run the development server:
+📊 Database:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+7 tables fully seeded
+6 unions with realistic data
+30+ users (citizens, chairmen, admins)
+Ready for demo
+🎨 Design:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Consistent emerald theme for citizens/chairman
+Blue theme for admin
+Mobile responsive
+Professional cards and layouts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🚀 What's Ready for Demo:
+Flow 1: Citizen Reports Issue
 
-## Learn More
+Citizen logs in → Creates issue
+Admin approves it
+Issue visible to all citizens
 
-To learn more about Next.js, take a look at the following resources:
+Flow 2: Budget Transparency
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Chairman creates budget
+Citizens flag suspicious budget
+Auto-escalates when threshold reached
+Chairman sees it in "তদন্ত প্রয়োজন"
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Flow 3: Hash Chain Verification
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Every budget has cryptographic hash
+Links to previous record
+Tamper-proof audit trail
